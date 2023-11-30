@@ -68,7 +68,7 @@ const MyTree = () => {
     //   }
 
     
-    return data?.mySponsorTree?.mySponsorTree;
+    return data?.mySponsorTree?.mySponsorTree;    // here, array of object is returning
   };
 
   const buildNestedArray = async (id) => {
