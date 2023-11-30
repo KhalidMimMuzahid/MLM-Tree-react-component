@@ -94,6 +94,66 @@ const MyTree = () => {
   };
   async function generateTreeData() {
     buildNestedArray(mySelf?.data?.user_id).then((nestedArray) => {
+
+
+
+  // nestedArray will be look like ,
+  // const nestedArray = {
+  //     user_id: 1,
+  //     name: "A",
+  //     mySponsorTree: [
+  //       {
+  //         user_id: 2,
+  //         name: "B",
+  //         mySponsorTree: [
+  //           {
+  //             user_id: 3,
+  //             name: "C",
+  //             mySponsorTree: [
+  //               {
+  //                 user_id: 4,
+  //                 name: "D",
+  //               },
+  //               {
+  //                 user_id: 5,
+  //                 name: "E",
+  //               },
+  //             ],
+  //           },
+  //           {
+  //             user_id: 6,
+  //             name: "F",
+  //             mySponsorTree: [
+  //               {
+  //                 user_id: 7,
+  //                 name: "Gfddfdffd",
+  //               },
+  //               {
+  //                 user_id: 8,
+  //                 name: "Gfddfdffd",
+  //               },
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         user_id: 9,
+  //         name: "C",
+  //         mySponsorTree: [
+  //           {
+  //             user_id: 10,
+  //             name: "D",
+  //           },
+  //         ],
+  //       },
+  //     ],
+  //   }
+
+
+
+
+
+      
       setTreeDataArray([nestedArray]);
     });
   }
